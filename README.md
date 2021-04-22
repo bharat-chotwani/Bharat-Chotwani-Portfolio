@@ -2,7 +2,8 @@
 
 Hey! Welcome to my portfolio.
 
-
+About Myself:
+I'm Bharat chotwani, I'm a Computer Application student.
 
 I know:
 
