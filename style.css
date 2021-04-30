@@ -3,7 +3,27 @@
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
+    box-sizing: border-box;
 }
+ 
+
+@media only screen and (max-width: 700px) {
+    .hero-image {
+    height: 250px;
+    width: 217px;
+    }
+}
+
+@viewport {
+     zoom: 1.0;
+     width: exten-to-zoom;
+}
+
+@-ms-viewport {
+    width: exten-to-zoom;
+    zoom: 1.0;
+}
+
 
 :root {
     --primary-color: #06BC9B;
@@ -100,6 +120,7 @@ br{
     color: white;
     /* padding: 1rem ; */
     border-bottom-left-radius: 1rem;
+    min-height: 40px;
 }
 
 .navigation .nav-brand {
@@ -137,10 +158,10 @@ text-decoration: underline;
 /* header */
 
 .hero {
+    min-height: 100px;
     padding: 2rem;
     margin-top: 5rem;
     margin-left: 5rem;
-    display: flex;
 }
 
 .hero .hero-image {
@@ -165,9 +186,12 @@ text-decoration: underline;
 /** section **/
 
 .section {
+    min-height: 400px;
     padding: 2rem;
     margin: 5rem 0rem;
 }
+
+
 
 .section h1 {
     text-align: center;
@@ -180,6 +204,7 @@ text-decoration: underline;
 /* footer */
 
 .footer {
+    min-height: 100px;
     background-color: var(--primary-color);
     padding: 4rem 1rem;
     text-align: center;
