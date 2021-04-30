@@ -8,13 +8,17 @@ body{
 
 
 
- @media only screen and (max-width: 768px) {
-    .navigation {
-        display: block;
-        margin: auto;
-        max-width: 800px;
+ @media only screen and (max-width: 700px) {
+    body {
+        background-color: red;
     }
 }  
+
+@media only screen and (max-width: 700px) {
+    .hero-image {
+        width: auto;
+    }
+}
 
 
 :root {
@@ -152,7 +156,6 @@ text-decoration: underline;
     padding: 2rem;
     margin-top: 5rem;
     margin-left: 5rem;
-    display: flex;
 }
 
 .hero .hero-image {
