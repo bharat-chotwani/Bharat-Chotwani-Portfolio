@@ -10,7 +10,9 @@ I know:
 1. HTML
 1. CSS
 1. JavaScript
-1. React(basic)
+1. React
+1. Web hosting(netlify)
+1. Git and Github
 1. Node.JS
 1. Repl.it
  
